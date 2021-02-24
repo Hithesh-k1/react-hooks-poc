@@ -113,14 +113,14 @@ function Registration() {
         </div>
         <div className="form-group">
           <button className="btn btn-primary">
-            {/* {registering && (
+            {registering && (
               <span className="spinner-border spinner-border-sm mr-1"></span>
-            )} */}
+            )}
             Register
           </button>
-          {/* <Link to="/login" className="btn btn-link">
+          <Link to="/login" className="btn btn-link">
             Cancel
-          </Link> */}
+          </Link>
         </div>
       </form>
     </div>

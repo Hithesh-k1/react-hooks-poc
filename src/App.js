@@ -30,7 +30,7 @@ function App() {
           )}
           <Router history={history}>
             <Switch>
-              <ThemeContext.Provider value={{color:"yellow"}}>
+              <ThemeContext.Provider value={{color:"navy"}}>
                 <PrivateRoute exact path="/" component={HomePage} />
               <Route path="/login" component={LoginPage} />
               <Route path="/register" component={RegisterPage} />
